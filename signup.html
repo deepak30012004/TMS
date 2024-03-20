@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIL SAFAR - REGISTER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('van.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #1c4979;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 2rem;
+            display: flex;
+        }
+
+        section {
+            max-width: 30rem;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 1rem;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.25rem;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5rem;
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #1c4979;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* Sidebar styles */
+        nav {
+            background-color: #003366;
+            color: white;
+            width: 200px;
+            padding: 1rem;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header img {
+            height: 40px; /* Adjust as needed */
+            order: -1; /* Move the image to the left */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RAIL SAFAR</h1>
+        <img src="v3.jpg.png" alt="Logo">
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="#">CHARTING STATUS</a></li>
+                <li><a href="#">REFUND CALCULATOR</a></li>
+                <li><a href="#">TRAIN INFO</a></li>
+                <li><a href="#">PNR STATUS</a></li>
+                <li><a href="#">COACH POSITION</a></li>
+                <li><a href="#">SEAT MAP</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>CREATE ACCOUNT</h2>
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number">
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                <button type="submit">SIGN UP</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 RAIL SAFAR</p>
+    </footer>
+</body>
+</html>
